@@ -1,12 +1,12 @@
 {
   "name": "sass-hole",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SASS/SCSS style/utility library. Very Lightweight!",
   "main": "dist/styles.css",
-  "style": "src/index.scss",
+  "style": "sass-hole.scss",
   "scripts": {
-    "build": "sass src/index.scss dist/styles.css",
-    "dev": "sass --watch src/index.scss dist/styles.css"
+    "build": "sass sass-hole.scss dist/styles.css",
+    "dev": "sass --watch sass-hole.scss dist/styles.css"
   },
   "keywords": [
     "sass",
@@ -27,13 +27,13 @@
   "files": [
     "dist/",
     "src/",
-    "index.scss",
+    "sass-hole.scss",
     "README.md"
   ],
   "exports": {
     ".": {
       "style": "./dist/styles.css",
-      "sass": "./src/index.scss"
+      "sass": "./sass-hole.scss"
     }
   },
   "type": "commonjs",
