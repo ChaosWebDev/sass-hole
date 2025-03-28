@@ -1,12 +1,12 @@
 {
   "name": "sass-hole",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "SASS/SCSS style/utility library. Very Lightweight!",
   "main": "dist/styles.css",
-  "style": "index.scss",
+  "style": "src/index.scss",
   "scripts": {
-    "build": "sass index.scss dist/styles.css",
-    "dev": "sass --watch index.scss dist/styles.css"
+    "build": "sass src/index.scss dist/styles.css",
+    "dev": "sass --watch src/index.scss dist/styles.css"
   },
   "keywords": [
     "sass",
@@ -29,5 +29,20 @@
     "src/",
     "index.scss",
     "README.md"
-  ]
+  ],
+  "exports": {
+    ".": {
+      "style": "./dist/styles.css",
+      "sass": "./src/index.scss"
+    }
+  },
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChaosWebDev/sass-hole"
+  },
+  "bugs": {
+    "url": "https://github.com/ChaosWebDev/sass-hole/issues"
+  },
+  "homepage": "https://github.com/ChaosWebDev/sass-hole#readme"
 }

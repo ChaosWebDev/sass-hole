@@ -1,0 +1,165 @@
+// * Font Families * //
+.font-sans {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.font-serif {
+    font-family: 'Georgia', 'Times', serif;
+}
+
+.font-mono {
+    font-family: 'Courier New', monospace;
+}
+
+// * Cursor * //
+.cursor-pointer {
+    cursor: pointer;
+}
+
+// * Font Weight * //
+.font-thin {
+    font-weight: 100;
+}
+
+.font-extralight {
+    font-weight: 200;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.font-normal {
+    font-weight: 400;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-extrabold {
+    font-weight: 800;
+}
+
+.font-black {
+    font-weight: 900;
+}
+
+// * Font Style * //
+.font-italic {
+    font-style: italic;
+}
+
+.font-normal {
+    font-style: normal;
+}
+
+// * Text Decoration * //
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-strike {
+    text-decoration: line-through;
+}
+
+.text-none {
+    text-decoration: none;
+}
+
+// * Text Transform * //
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+// * Text Alignment * //
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+// * Text Size * //
+.text-xs {
+    font-size: 0.75rem;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.text-md {
+    font-size: 1rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+}
+
+// * Line Height * //
+.leading-none {
+    line-height: 1;
+}
+
+.leading-tight {
+    line-height: 1.25;
+}
+
+.leading-normal {
+    line-height: 1.5;
+}
+
+.leading-loose {
+    line-height: 2;
+}
+
+// * Letter Spacing * //
+.tracking-tight {
+    letter-spacing: -0.05em;
+}
+
+.tracking-normal {
+    letter-spacing: 0;
+}
+
+.tracking-wide {
+    letter-spacing: 0.05em;
+}
