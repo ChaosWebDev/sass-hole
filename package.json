@@ -1,0 +1,33 @@
+{
+  "name": "sass-hole",
+  "version": "0.0.1",
+  "description": "SASS/SCSS style/utility library. Very Lightweight!",
+  "main": "dist/styles.css",
+  "style": "index.scss",
+  "scripts": {
+    "build": "sass index.scss dist/styles.css",
+    "dev": "sass --watch index.scss dist/styles.css"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "css",
+    "utility",
+    "flexbox",
+    "grid",
+    "spacing",
+    "lightweight"
+  ],
+  "author": "Jordan Gerber",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.85.1"
+  },
+  "prepublishOnly": "npm run build",
+  "files": [
+    "dist/",
+    "src/",
+    "index.scss",
+    "README.md"
+  ]
+}
